@@ -1,0 +1,120 @@
+.indexMain{
+    display: flex;
+    flex-direction: row;
+    padding: 70px 85px;
+    width: 100%;
+    height: 100%;
+    background: var(--gradient-bluemarine-left-right);
+}
+.left{
+    width: 100%;
+    height: 100%;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    min-width: 500px;
+    min-height: 600px;
+    
+
+}
+
+.contentWrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 55px 55px;
+    gap: 10px;
+    background: white;
+    border-radius: 10px;
+    overflow-x: hidden;
+}
+
+.indexHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+}
+.textHeader{
+    padding-bottom: 5px;
+    background-image: linear-gradient(#545454, #545454);
+    background-size: 0% 0.1rem;
+    background-position-y:100%;
+    background-position-x:50%;
+    background-repeat: no-repeat;
+    transition: background-size 0.2s ease-in-out;
+}
+.textHeader.active, .textHeader:hover{
+    background-size: 100% 0.1em;
+}
+.vLine{
+    width: 0;height:30px;
+    border-left: 1px solid #000000;
+}
+
+
+/* content */
+.relative{position: relative;}
+.login{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+}
+.signUp{
+    width: 100%;
+    position: absolute;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+}
+.indexInputContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0 10px;
+    gap:20px;
+}
+.disclaimer{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400px;
+    color: (var(--element-black));
+  }
+.spanLink{
+    color:#08355C;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footerForm{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.indexFooter{
+    color: #BDBDBD;
+    font-size: 12px;
+    width: 100%;
+    margin-top: 5px;
+    text-align: center;
+}
+

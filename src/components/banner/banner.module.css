@@ -1,0 +1,6 @@
+.error{
+    /*Layout*/
+    padding: 10px;
+    background-color: var(--support-crimson);
+    color: white;
+}
